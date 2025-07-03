@@ -1,5 +1,5 @@
 <?php
-if($_SERVER["REQUEST_METHOD"] === "POST") {
+if($_SERVER['REQUEST_METHOD'] === "POST") {
     if(isset($_POST["userEmail"])) {
         $email = $_POST["userEmail"];
         echo $email;
@@ -20,7 +20,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST") {
             <p>Endereço de e-mail</p>
         </label>
         <input type="email" id="userEmail" name="userEmail" placeholder="Digite seu e-mail">
-        <button type="submit">Entrar</button>
+        <button type="submit">Cadastrar</button>
     </form>
     
 </body>
