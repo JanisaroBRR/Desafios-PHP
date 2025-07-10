@@ -1,3 +1,21 @@
+<?php
+
+require_once '../vendor/autoload.php';
+
+use Model\Imcs;
+
+$imc = new Imcs();
+
+
+
+
+
+
+?>
+
+
+
+
 
 <!DOCTYPE html>
 <html lang="pt-br">

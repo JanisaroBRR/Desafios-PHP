@@ -1,10 +1,10 @@
 {
-    "name": "ana/fitcalc",
+    "name": "fred/fitcalc",
     "description": "Calculadora de IMC",
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Ana\\Fitcalc\\": "fitCalc/",
+            "Fred\\Fitcalc\\": "fitCalc/",
             "Controller\\": "Controller/",
             "Model\\": "Model/"
         },
